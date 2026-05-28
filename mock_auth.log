@@ -1,0 +1,67 @@
+May 24 10:00:01 ubuntu-server sshd[20451]: Invalid user admin from 192.168.1.50 port 51234 ssh2
+May 24 10:00:01 ubuntu-server sshd[20451]: Failed password for invalid user admin from 192.168.1.50 port 51234 ssh2
+May 24 10:00:05 ubuntu-server sshd[20452]: Received disconnect from 192.168.1.50 port 51234:11: Bye Bye [preauth]
+May 24 10:00:10 ubuntu-server sshd[20453]: Failed password for root from 192.168.1.100 port 51236 ssh2
+May 24 10:00:15 ubuntu-server systemd[1]: Started Daily apt upgrade and clean activities.
+May 24 10:01:15 ubuntu-server sshd[20455]: Failed password for root from 192.168.1.100 port 51238 ssh2
+May 24 10:01:45 ubuntu-server sshd[20457]: Accepted password for deployer from 192.168.1.15 port 49152 ssh2
+May 24 10:01:45 ubuntu-server sshd[20457]: pam_unix(sshd:session): session opened for user deployer(1000) by (uid=0)
+May 24 10:02:20 ubuntu-server sshd[20460]: Failed password for root from 192.168.1.100 port 51240 ssh2
+May 24 10:03:00 ubuntu-server sshd[20462]: Failed password for invalid user guest from 192.168.1.50 port 51242 ssh2
+May 24 10:03:02 ubuntu-server sshd[20462]: Received disconnect from 192.168.1.50 port 51242:11: user request [preauth]
+May 24 10:03:30 ubuntu-server sshd[20464]: Failed password for root from 192.168.1.100 port 51244 ssh2
+May 24 10:04:10 ubuntu-server sshd[20466]: Failed password for root from 192.168.1.100 port 51246 ssh2
+May 24 10:04:12 ubuntu-server sshd[20466]: Received disconnect from 192.168.1.100 port 51246:11: user request [preauth]
+May 24 10:05:00 ubuntu-server sshd[20468]: Failed password for webmaster from 192.168.1.75 port 51248 ssh2
+May 24 10:05:30 ubuntu-server sshd[20470]: Invalid user backup from 192.168.1.80 port 51250 ssh2
+May 24 10:05:31 ubuntu-server sshd[20470]: Failed password for invalid user backup from 192.168.1.80 port 51250 ssh2
+May 24 10:06:01 ubuntu-server sshd[20472]: Connection closed by authenticating user root 192.168.1.100 port 51252 [preauth]
+May 24 10:07:05 ubuntu-server sshd[20474]: Accepted publickey for alice from 10.0.0.5 port 42314 ssh2: RSA SHA256:abc123xyz...
+May 24 10:07:05 ubuntu-server sshd[20474]: pam_unix(sshd:session): session opened for user alice(1001) by (uid=0)
+May 24 10:08:12 ubuntu-server sshd[20476]: Failed password for invalid user oracle from 192.168.1.80 port 51254 ssh2
+May 24 10:08:45 ubuntu-server sshd[20478]: Failed password for invalid user mysql from 192.168.1.80 port 51256 ssh2
+May 24 10:09:12 ubuntu-server sshd[20480]: Failed password for invalid user postgres from 192.168.1.80 port 51258 ssh2
+May 24 10:09:30 ubuntu-server sshd[20482]: Failed password for invalid user git from 192.168.1.80 port 51260 ssh2
+May 24 10:10:00 ubuntu-server sshd[20484]: Accepted password for bob from 192.168.1.20 port 49200 ssh2
+May 24 10:10:00 ubutu-server sshd[20484]: pam_unix(sshd:session): session opened for user bob(1002) by (uid=0)
+May 24 10:10:45 ubuntu-server sshd[20486]: Failed password for root from 192.168.1.200 port 51262 ssh2
+May 24 10:11:00 ubuntu-server sshd[20488]: Failed password for root from 192.168.1.200 port 51264 ssh2
+May 24 10:11:15 ubuntu-server sshd[20490]: Failed password for root from 192.168.1.200 port 51266 ssh2
+May 24 10:11:30 ubuntu-server sshd[20492]: Accepted password for root from 192.168.1.200 port 51268 ssh2
+May 24 10:11:30 ubuntu-server sshd[20492]: pam_unix(sshd:session): session opened for user root(0) by (uid=0)
+May 24 10:12:00 ubuntu-server sshd[20494]: Invalid user support from 192.168.1.80 port 51270 ssh2
+May 24 10:12:00 ubuntu-server sshd[20494]: Failed password for invalid user support from 192.168.1.80 port 51270 ssh2
+May 24 10:12:15 ubuntu-server sshd[20496]: Invalid user test from 192.168.1.80 port 51272 ssh2
+May 24 10:12:16 ubuntu-server sshd[20496]: Failed password for invalid user test from 192.168.1.80 port 51272 ssh2
+May 24 10:12:30 ubuntu-server sshd[20498]: Invalid user dev from 192.168.1.80 port 51274 ssh2
+May 24 10:12:31 ubuntu-server sshd[20498]: Failed password for invalid user dev from 192.168.1.80 port 51274 ssh2
+May 24 10:13:00 ubuntu-server sshd[20457]: pam_unix(sshd:session): session closed for user deployer
+May 24 10:14:01 ubuntu-server CRON[20505]: pam_unix(cron:session): session opened for user root(0) by (uid=0)
+May 24 10:14:02 ubuntu-server CRON[20505]: pam_unix(cron:session): session closed for user root
+May 24 10:15:00 ubuntu-server sshd[20510]: Failed password for root from 10.0.0.99 port 53100 ssh2
+May 24 10:15:02 ubuntu-server sshd[20512]: Failed password for root from 10.0.0.99 port 53102 ssh2
+May 24 10:15:04 ubuntu-server sshd[20514]: Failed password for root from 10.0.0.99 port 53104 ssh2
+May 24 10:15:06 ubuntu-server sshd[20516]: Failed password for root from 10.0.0.99 port 53106 ssh2
+May 24 10:15:08 ubuntu-server sshd[20518]: Failed password for root from 10.0.0.99 port 53108 ssh2
+May 24 10:15:10 ubuntu-server sshd[20520]: Failed password for root from 10.0.0.99 port 53110 ssh2
+May 24 10:15:12 ubuntu-server sshd[20522]: Failed password for root from 10.0.0.99 port 53112 ssh2
+May 24 10:15:14 ubuntu-server sshd[20524]: Failed password for root from 10.0.0.99 port 53114 ssh2
+May 24 10:15:16 ubuntu-server sshd[20526]: Failed password for root from 10.0.0.99 port 53116 ssh2
+May 24 10:15:18 ubuntu-server sshd[20528]: Failed password for root from 10.0.0.99 port 53118 ssh2
+May 24 10:15:20 ubuntu-server sshd[20530]: Failed password for root from 10.0.0.99 port 53120 ssh2
+May 24 10:15:22 ubuntu-server sshd[20532]: Failed password for root from 10.0.0.99 port 53122 ssh2
+May 24 10:15:24 ubuntu-server sshd[20534]: Failed password for root from 10.0.0.99 port 53124 ssh2
+May 24 10:15:26 ubuntu-server sshd[20536]: Failed password for root from 10.0.0.99 port 53126 ssh2
+May 24 10:15:28 ubuntu-server sshd[20538]: Failed password for root from 10.0.0.99 port 53128 ssh2
+May 24 10:16:00 ubuntu-server sshd[20484]: pam_unix(sshd:session): session closed for user bob
+May 24 10:17:00 ubuntu-server sshd[20542]: Failed password for invalid user admin from 192.168.1.50 port 51276 ssh2
+May 24 10:18:15 ubuntu-server sshd[20544]: Accepted publickey for backup-service from 10.0.0.10 port 45678 ssh2: RSA SHA256:def456uvw...
+May 24 10:18:15 ubuntu-server sshd[20544]: pam_unix(sshd:session): session opened for user backup-service(1003) by (uid=0)
+May 24 10:18:30 ubuntu-server sshd[20544]: pam_unix(sshd:session): session closed for user backup-service
+May 24 10:20:00 ubuntu-server sshd[20550]: Invalid user scanner from 172.16.0.5 port 61234 ssh2
+May 24 10:20:00 ubuntu-server sshd[20550]: Failed password for invalid user scanner from 172.16.0.5 port 61234 ssh2
+May 24 10:20:05 ubuntu-server sshd[20552]: Connection closed by authenticating user root 172.16.0.5 port 61236 [preauth]
+May 24 10:20:10 ubuntu-server sshd[20554]: Invalid user shell from 172.16.0.5 port 61238 ssh2
+May 24 10:20:10 ubuntu-server sshd[20554]: Failed password for invalid user shell from 172.16.0.5 port 61238 ssh2
+May 24 10:20:15 ubuntu-server sshd[20556]: Connection closed by 172.16.0.5 port 61240 [preauth]
+May 24 10:22:00 ubuntu-server sshd[20474]: pam_unix(sshd:session): session closed for user alice
